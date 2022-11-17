@@ -1,0 +1,15 @@
+2022-11-16 21:48:59 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" not found (this database is empty); SQL statement:
+INSERT INTO BOOK VALUES(?,?,?,?,?,?,?) [42104-214]
+2022-11-16 21:49:48 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" not found (this database is empty); SQL statement:
+INSERT INTO BOOK VALUES(?,?,?,?,?,?,?) [42104-214]
+2022-11-16 21:55:40 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" not found (this database is empty); SQL statement:
+INSERT INTO BOOK VALUES(?,?,?,?,?,?,?) [42104-214]
+2022-11-16 21:58:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE BOOK(ID INT, ISBN, VARCHAR[*](30), TITLE VARCHAR (100), CATEGORY VARCHAR (30), AUTHORID INT, PUBLISHDATE DATE, CREATEDATE DATE );"; expected "IDENTITY, BIGSERIAL, SERIAL, data type"; SQL statement:
+CREATE TABLE BOOK(ID INT, ISBN, VARCHAR(30), TITLE VARCHAR (100), CATEGORY VARCHAR (30), AUTHORID INT, PUBLISHDATE DATE, CREATEDATE DATE ); [42001-214]
+2022-11-16 21:58:07 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "BOOK" not found (this database is empty); SQL statement:
+INSERT INTO BOOK VALUES(?,?,?,?,?,?,?) [42104-214]
